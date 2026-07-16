@@ -44,6 +44,7 @@ export const DEMO_USER = Object.freeze({
 })
 
 export function normalizeSong(row) {
+  const hidden = Boolean(row?.hidden || row?.status === 'hidden')
   return {
     id: String(row?.id || ''),
     title: String(row?.title || 'Untitled song'),
@@ -61,7 +62,8 @@ export function normalizeSong(row) {
     notes: row?.source === 'demo-fixture' ? 'Clearly labeled portfolio workflow fixture.' : '',
     is_public_catalog: true,
     is_admin_content: false,
-    status: 'published',
+    status: hidden ? 'hidden' : 'published',
+    hidden,
   }
 }
 
@@ -86,6 +88,7 @@ export function filterSongs(songs, searchParams) {
   const verified = String(searchParams.get('verified') || '').trim()
 
   return songs.filter((song) => {
+    if (song.hidden || song.status === 'hidden') return false
     if (lang && song.lang !== lang) return false
     if (country && song.country.toLowerCase() !== country) return false
     if (year && String(song.year || '') !== year) return false
@@ -115,6 +118,7 @@ export function paginateSongs(songs, searchParams, pageSize = 10) {
 function groupCount(songs, fields) {
   const counts = new Map()
   for (const song of songs) {
+    if (song.hidden || song.status === 'hidden') continue
     const values = fields.map((field) => String(song[field] || ''))
     if (values.some((value) => !value)) continue
     const key = JSON.stringify(values)

@@ -109,7 +109,8 @@
     "theme": "",
     "year": 1840,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "vla_all_voll_all_voll",
@@ -369,6 +370,7 @@
   },
   {
     "id": "vla_die_bruijt_en_vollt_niet_te_bedde",
+    "hidden": true,
     "catalogId": "vla_die_bruijt_en_vollt_niet_te_bedde",
     "title": "Die Bruijt en vollt niet te bedde",
     "subtitle": "",
@@ -609,6 +611,7 @@
   },
   {
     "id": "vla_es_ist_jetzt_so_ein_kalte_nacht",
+    "hidden": true,
     "catalogId": "vla_es_ist_jetzt_so_ein_kalte_nacht",
     "title": "Es ist jetzt so ein kalte Nacht",
     "subtitle": "",
@@ -836,7 +839,7 @@
     "catalogId": "vla_gelobt_sei_das_lied_von_dem_heller",
     "title": "Gelobt sei (Das Lied von dem Heller)",
     "subtitle": "",
-    "lyrics": "HurGelobt sei, der zum ersten erdacht\r\nDaß man in der Münz die Heller macht\r\nEr hats gar wohl besunnen\r\nMir ist gar oft all meiner Münz\r\nBis auf drei Heller zerrunnen\r\n\r\nMit dem Heller man groß Schätze macht\r\nWiewohl mancher den Heller veracht\r\nNiemand laß sich verdrießen\r\nPfaffen, Mönch- und Frauenklöster\r\nTun jetz die Schätz beschließen\r\n\r\nElf Geschlecht die nährt der Heller\r\nPfaffen, Buhlerin, Camesierer\r\nThut alls vom Heller zehren\r\nKlenkner, Birkschlag und Stabeuler\r\nMuß alls der Heller nähren\r\n\r\nKein Baur, keinKnecht jetz behalten kann\r\nSie wollen allsammt kriegrisch gan\r\nKummt keiner zu keim Herren\r\nSie laufen nur auf der Gart um\r\nDer Heller muß sie all ernähren.\r\n\r\nSchwör’n all Übel, Leiden und Macht\r\nSagen von der und jener Schlacht\r\nSind nie zu keiner kummen\r\nIch glaub, daß ihr n",
+    "lyrics": "Gelobt sei, der zum ersten erdacht\r\nDaß man in der Münz die Heller macht\r\nEr hats gar wohl besunnen\r\nMir ist gar oft all meiner Münz\r\nBis auf drei Heller zerrunnen\r\n\r\nMit dem Heller man groß Schätze macht\r\nWiewohl mancher den Heller veracht\r\nNiemand laß sich verdrießen\r\nPfaffen, Mönch- und Frauenklöster\r\nTun jetz die Schätz beschließen\r\n\r\nElf Geschlecht die nährt der Heller\r\nPfaffen, Buhlerin, Camesierer\r\nThut alls vom Heller zehren\r\nKlenkner, Birkschlag und Stabeuler\r\nMuß alls der Heller nähren\r\n\r\nKein Baur, keinKnecht jetz behalten kann\r\nSie wollen allsammt kriegrisch gan\r\nKummt keiner zu keim Herren\r\nSie laufen nur auf der Gart um\r\nDer Heller muß sie all ernähren.\r\n\r\nSchwör’n all Übel, Leiden und Macht\r\nSagen von der und jener Schlacht\r\nSind nie zu keiner kummen\r\nIch glaub, daß ihr n",
     "language": "de",
     "country": "german_empire_1900_1918",
     "period": "",
@@ -1364,7 +1367,7 @@
     "catalogId": "vla_there_was_a_jolly_miller_once",
     "title": "There was a jolly miller once",
     "subtitle": "",
-    "lyrics": "in The Convivial Songster, 1782",
+    "lyrics": "There was a jolly miller once,\r\nLived on the river Dee;\r\nHe worked and sang from morn till night,\r\nNo lark more blithe than he.\r\nAnd this the burden of his song\r\nForever used to be,\r\nI care for nobody, no, not I,\r\nIf nobody cares for me.",
     "language": "en",
     "country": "uk_gb_ireland_1900_1922",
     "period": "",
@@ -1533,7 +1536,8 @@
     "theme": "",
     "year": 1450,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "vla_wo_soll_ich_mich_hinkehren_ich_armes_bruederlein",
@@ -1581,7 +1585,8 @@
     "theme": "",
     "year": 1501,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "vla_zu_ury_bei_den_linden_wilhelm_tell",
@@ -1716,7 +1721,7 @@
     "catalogId": "sr_vuk2_033_",
     "title": "Јунаку",
     "subtitle": "",
-    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело! \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело!",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -1821,7 +1826,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_061___public_2",
@@ -1837,7 +1843,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_064___public_2",
@@ -1853,7 +1860,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_082___public_2",
@@ -1869,14 +1877,15 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_033___public_2",
     "catalogId": "sr_vuk2_033_",
     "title": "Јунаку",
     "subtitle": "",
-    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело! \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело!",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -1885,7 +1894,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_096___public_2",
@@ -1901,7 +1911,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_095___public_2",
@@ -1917,7 +1928,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_053_",
@@ -1981,7 +1993,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_061___public_3",
@@ -1997,7 +2010,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_064___public_3",
@@ -2013,7 +2027,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_082___public_3",
@@ -2029,14 +2044,15 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_033___public_3",
     "catalogId": "sr_vuk2_033_",
     "title": "Јунаку",
     "subtitle": "",
-    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело! \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело!",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -2045,7 +2061,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_096___public_3",
@@ -2061,7 +2078,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_095___public_3",
@@ -2077,7 +2095,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4616",
@@ -2109,7 +2128,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_061___public_4",
@@ -2125,7 +2145,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4614",
@@ -2141,14 +2162,15 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_041_",
     "catalogId": "sr_vuk2_041_",
     "title": "Жени каквој",
     "subtitle": "",
-    "lyrics": "Жени каквој\r\n\r\n\r\nНа Миту\r\n[\r\n1\r\n]\r\n су жуте чизме и црљена свила. \r\n\r\nА благо си младу Ст'јепу, слатко т' је целива! \r\n\r\n     И око и чело \r\n\r\n     Све ти, сестро, весело!  \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Жени каквој\r\n\r\n\r\nНа Миту\r\n[\r\n1\r\n]\r\n су жуте чизме и црљена свила. \r\n\r\nА благо си младу Ст'јепу, слатко т' је целива! \r\n\r\n     И око и чело \r\n\r\n     Све ти, сестро, весело!",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -2173,7 +2195,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_082___public_4",
@@ -2189,14 +2212,15 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_033___public_4",
     "catalogId": "sr_vuk2_033_",
     "title": "Јунаку",
     "subtitle": "",
-    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело! \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело!",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -2205,7 +2229,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_096___public_4",
@@ -2221,7 +2246,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_095___public_4",
@@ -2237,7 +2263,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_082___public_5",
@@ -2253,14 +2280,15 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_033___public_5",
     "catalogId": "sr_vuk2_033_",
     "title": "Јунаку",
     "subtitle": "",
-    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело! \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Јунаку\r\n\r\n\r\nОружан јунак Дунај преплива, \r\n\r\nСелдан га коњиц при брјегу чека; \r\n\r\nНе чудимо се добру јунаку, \r\n\r\nВећ се чудимо коњу његову, \r\n\r\nЂе га оселдан при бр'јегу чека: \r\n5\r\n\r\nА још је трећа, која је највећа: \r\n\r\nДома га љуби с поштењем чека. \r\n\r\n     И око и чело \r\n\r\n     Све вам, браћо, весело!",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -2269,7 +2297,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_007_",
@@ -2317,7 +2346,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4593",
@@ -2381,7 +2411,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_095___public_5",
@@ -2397,7 +2428,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_044_",
@@ -2461,7 +2493,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4609__public_2",
@@ -2477,7 +2510,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4593__public_2",
@@ -2493,7 +2527,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4546__public_2",
@@ -2509,7 +2544,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4558__public_2",
@@ -2525,7 +2561,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_096___public_6",
@@ -2541,7 +2578,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_095___public_6",
@@ -2557,7 +2595,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "pisniua_637374",
@@ -2605,7 +2644,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_099_",
@@ -2637,7 +2677,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4621",
@@ -2669,7 +2710,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_095___public_7",
@@ -2685,7 +2727,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4615",
@@ -2701,7 +2744,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4590",
@@ -2733,7 +2777,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4610",
@@ -2765,7 +2810,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4604",
@@ -2781,7 +2827,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_049_",
@@ -2900,7 +2947,7 @@
     "catalogId": "sr_vuk2_038_",
     "title": "Момку нежењену",
     "subtitle": "",
-    "lyrics": "Момку нежењену\r\n\r\n\r\nО јуначе црноочићу! \r\n\r\nЗагали руке, засучи брке, \r\n\r\nИ стани љубит' младу ђевојку: \r\n\r\nНемој јој, немој лице грдити. \r\n\r\nНего је љуби, како се љуби; \r\n5\r\n \r\n\r\nНемој јој, момче, лице жарити. \r\n\r\n     И око и чело \r\n\r\n     Све ти Бог д'о весело!  \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Момку нежењену\r\n\r\n\r\nО јуначе црноочићу! \r\n\r\nЗагали руке, засучи брке, \r\n\r\nИ стани љубит' младу ђевојку: \r\n\r\nНемој јој, немој лице грдити. \r\n\r\nНего је љуби, како се љуби; \r\n5\r\n \r\n\r\nНемој јој, момче, лице жарити. \r\n\r\n     И око и чело \r\n\r\n     Све ти Бог д'о весело!",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -2932,7 +2979,7 @@
     "catalogId": "sr_vuk2_001_",
     "title": "На просидби",
     "subtitle": "",
-    "lyrics": "На просидби\r\n\r\n\r\n(из Барање).\r\n \r\n\r\n\r\nОј ти коло велико! — \r\n\r\nШто нас зовеш, малено? — \r\n\r\nИмате ли дјевојак'! — \r\n\r\nИма, коло велико! — \r\n\r\nДајте нама до двије. — \r\n5\r\n \r\n\r\nНе дамо вам ни једне: \r\n\r\nА камо ли до двије. — \r\n\r\nА ми ћемо и силом. — \r\n\r\nСила Бога не моли. — \r\n\r\nСјевер гору обломи. — \r\n10\r\n \r\n\r\nА за рашта обломи? — \r\n\r\nЗарад' ваши дјевојак'. —  \r\n\r\nА ви два свата, два уводника, \r\n\r\nОтвор'те врата. —  \r\n\r\nОтворена су јоште с вечера \r\n15\r\n \r\n\r\nИ пометена.\r\n[\r\n1\r\n]\r\n \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "На просидби\r\n\r\n\r\n(из Барање).\r\n \r\n\r\n\r\nОј ти коло велико! — \r\n\r\nШто нас зовеш, малено? — \r\n\r\nИмате ли дјевојак'! — \r\n\r\nИма, коло велико! — \r\n\r\nДајте нама до двије. — \r\n5\r\n \r\n\r\nНе дамо вам ни једне: \r\n\r\nА камо ли до двије. — \r\n\r\nА ми ћемо и силом. — \r\n\r\nСила Бога не моли. — \r\n\r\nСјевер гору обломи. — \r\n10\r\n \r\n\r\nА за рашта обломи? — \r\n\r\nЗарад' ваши дјевојак'. —  \r\n\r\nА ви два свата, два уводника, \r\n\r\nОтвор'те врата. —  \r\n\r\nОтворена су јоште с вечера \r\n15\r\n \r\n\r\nИ пометена.\r\n[\r\n1\r\n]",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -3053,14 +3100,15 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_1934_",
     "catalogId": "sr_vuk2_1934_",
     "title": "Немој, мати, кћери вјеровати",
     "subtitle": "",
-    "lyrics": "Немој, мати, кћери вјеровати\r\n\r\n\r\nНемој, мати, кћери веровати,\r\n\r\nИзлаже се у село на прело!\r\n\r\nНије кучка ни видила прељу,\r\n\r\nВеће иде с диком у шишкање,\r\n\r\nУ шишкање, у врашко сиграње, \r\n5\r\n\r\nКако ће је ђаволи однети.\r\n\r\n\r\n\r\n\r\n(АСАНУ, бр. 4277 — уз писмо Јустина МихаиловиНа\r\n \r\n\r\n\r\nод 12/24. VII 1840; Вукова преписка, VI, 311).\r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Немој, мати, кћери вјеровати\r\n\r\n\r\nНемој, мати, кћери веровати,\r\n\r\nИзлаже се у село на прело!\r\n\r\nНије кучка ни видила прељу,\r\n\r\nВеће иде с диком у шишкање,\r\n\r\nУ шишкање, у врашко сиграње, \r\n5\r\n\r\nКако ће је ђаволи однети.\r\n\r\n\r\n\r\n\r\n(АСАНУ, бр. 4277 — уз писмо Јустина МихаиловиНа\r\n \r\n\r\n\r\nод 12/24. VII 1840; Вукова преписка, VI, 311).",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -3101,7 +3149,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4629__public_2",
@@ -3117,7 +3166,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4556",
@@ -3140,7 +3190,7 @@
     "catalogId": "sr_vuk2_043_",
     "title": "Ономе, који се поноси, мислећи да је нешто велико, а управо није ништа",
     "subtitle": "",
-    "lyrics": "Ономе, који се поноси, мислећи\r\n \r\n\r\n\r\nда је нешто велико, а управо није ништа\r\n\r\n\r\n(Као у шали).\r\n \r\n\r\n\r\nЈунак поткива коња храбрена. \r\n\r\nВиђела га је жаба зелена. \r\n\r\nПодигла ногу, јунаку рекла: \r\n\r\n„Поткуј и мене, млади јуначе! \r\n\r\n„Нека бих коњем у гору утекла.\"  \r\n5\r\n\r\n     И око и чело \r\n\r\n     Све ти, жабо, весело! \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Ономе, који се поноси, мислећи\r\n \r\n\r\n\r\nда је нешто велико, а управо није ништа\r\n\r\n\r\n(Као у шали).\r\n \r\n\r\n\r\nЈунак поткива коња храбрена. \r\n\r\nВиђела га је жаба зелена. \r\n\r\nПодигла ногу, јунаку рекла: \r\n\r\n„Поткуј и мене, млади јуначе! \r\n\r\n„Нека бих коњем у гору утекла.\"  \r\n5\r\n\r\n     И око и чело \r\n\r\n     Све ти, жабо, весело!",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -3236,7 +3286,7 @@
     "catalogId": "sr_vuk2_002_",
     "title": "Опет на просидби",
     "subtitle": "",
-    "lyrics": "Опет на просидби\r\n\r\n\r\n(из Барање).\r\n \r\n\r\n\r\nНадви се облак изнад дјевојак': \r\n\r\nТо не био облак изнад дјевојак': \r\n\r\nВећ добар јунак тражи дјевојак'.  \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Опет на просидби\r\n\r\n\r\n(из Барање).\r\n \r\n\r\n\r\nНадви се облак изнад дјевојак': \r\n\r\nТо не био облак изнад дјевојак': \r\n\r\nВећ добар јунак тражи дјевојак'.",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -3252,7 +3302,7 @@
     "catalogId": "sr_vuk2_003_",
     "title": "Опет на просидби",
     "subtitle": "",
-    "lyrics": "Опет на просидби\r\n\r\n\r\n(Рисанска).\r\n \r\n\r\n\r\nЗапросио челебија Петро \r\n[\r\n1\r\n]\r\n \r\n\r\nНа далеко лијепу ђевојку. \r\n\r\nБаш ђевојку прелијепу Ану; \r\n[\r\n2\r\n]\r\n \r\n\r\nПетро проси, Ана се поноси. \r\n\r\nЕ је Петра влахиња\r\n[\r\n3\r\n]\r\n родила. \r\n5\r\n \r\n\r\nМали Петро поручује Ани: \r\n\r\n\"О тако ти, лијепа ђевојко! \r\n\r\n\"Немој ми се поносити млада! \r\n\r\n\"И ако ме родила влахиња, \r\n\r\n\"Потпуно је родила јунака: \r\n10\r\n \r\n\r\n\"Ти ме узми, не ћеш се кајати.\" \r\n\r\nИ тако се смиловала Ана, \r\n\r\nИ она је поручила Петру: \r\n\r\n\"Купи свате, ајде по ђевојку.\" \r\n\r\nКад је Петра књига допанула, \r\n15\r\n \r\n\r\nКупи свате челебија Петро. \r\n\r\nСкупи свате, оде по ђевојку. \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Опет на просидби\r\n\r\n\r\n(Рисанска).\r\n \r\n\r\n\r\nЗапросио челебија Петро \r\n[\r\n1\r\n]\r\n \r\n\r\nНа далеко лијепу ђевојку. \r\n\r\nБаш ђевојку прелијепу Ану; \r\n[\r\n2\r\n]\r\n \r\n\r\nПетро проси, Ана се поноси. \r\n\r\nЕ је Петра влахиња\r\n[\r\n3\r\n]\r\n родила. \r\n5\r\n \r\n\r\nМали Петро поручује Ани: \r\n\r\n\"О тако ти, лијепа ђевојко! \r\n\r\n\"Немој ми се поносити млада! \r\n\r\n\"И ако ме родила влахиња, \r\n\r\n\"Потпуно је родила јунака: \r\n10\r\n \r\n\r\n\"Ти ме узми, не ћеш се кајати.\" \r\n\r\nИ тако се смиловала Ана, \r\n\r\nИ она је поручила Петру: \r\n\r\n\"Купи свате, ајде по ђевојку.\" \r\n\r\nКад је Петра књига допанула, \r\n15\r\n \r\n\r\nКупи свате челебија Петро. \r\n\r\nСкупи свате, оде по ђевојку.",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -3373,7 +3423,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_013_",
@@ -3524,7 +3575,7 @@
     "catalogId": "sr_vuk2_1913_",
     "title": "Пољубљена, а незагрљена",
     "subtitle": "",
-    "lyrics": "Пољубљена, а незагрљена\r\n\r\n\r\nВидиш, дико, ту зелену траву,\r\n\r\nПокошену, а неоднешену,\r\n\r\nОнака сам код тебе девојка —\r\n\r\nПољубљена, а незагрљена.\r\n\r\nПољуби ме, иструла ти уста, \r\n5\r\n\r\nЗагрли ме, отпале ти руке!\r\n\r\nДругу љубиш, ја очима гледим —\r\n\r\nЗар је друга боља од менека?\r\n\r\nНије боља, ал’ је дики воља!\r\n\r\n\r\n\r\n\r\n(АСАНУ, бр. 4277 — уз писмо Јустина Михаиловића\r\n \r\n\r\n\r\nод 12/24. VII 1840; Вукова преписка, VI, 312).\r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Пољубљена, а незагрљена\r\n\r\n\r\nВидиш, дико, ту зелену траву,\r\n\r\nПокошену, а неоднешену,\r\n\r\nОнака сам код тебе девојка —\r\n\r\nПољубљена, а незагрљена.\r\n\r\nПољуби ме, иструла ти уста, \r\n5\r\n\r\nЗагрли ме, отпале ти руке!\r\n\r\nДругу љубиш, ја очима гледим —\r\n\r\nЗар је друга боља од менека?\r\n\r\nНије боља, ал’ је дики воља!\r\n\r\n\r\n\r\n\r\n(АСАНУ, бр. 4277 — уз писмо Јустина Михаиловића\r\n \r\n\r\n\r\nод 12/24. VII 1840; Вукова преписка, VI, 312).",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -3677,7 +3728,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_026_",
@@ -3805,7 +3857,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_2556_",
@@ -3828,7 +3881,7 @@
     "catalogId": "sr_vuk2_000_",
     "title": "Просцима",
     "subtitle": "",
-    "lyrics": "Просцима\r\n\r\n\r\n(из Сријема).\r\n \r\n\r\n\r\nОј! и два свата, два упросника! ле, леља ле! \r\n[\r\n1\r\n]\r\n \r\n\r\nКуд ви идете, шта ви тражите? — \r\n\r\nИ ми идемо, мому тражимо. —  \r\n\r\nУ нас је мома још непрошена. — \r\n\r\nМи ћемо доћи, да је просимо. — \r\n5\r\n \r\n\r\nВи ћете доћи, ми је не дамо. — \r\n\r\nБогме ћеш дати, и наша бити. —  \r\n\r\nДок свекар дође, сукњу донесе. —  \r\n\r\nСвекар ће доћи, сукњу донети. — \r\n\r\nДок рабар дође. прстен донесе. — \r\n10\r\n\r\nРабар ће доћи, прстен донети. — \r\n\r\nДок девер дође, венац донесе. — \r\n\r\nДевер ће доћи, венац донети. \r\n\r\n\r\n\r\n\r\nI\r\nб\r\n Без белешке одакле је.\r\n \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Просцима\r\n\r\n\r\n(из Сријема).\r\n \r\n\r\n\r\nОј! и два свата, два упросника! ле, леља ле! \r\n[\r\n1\r\n]\r\n \r\n\r\nКуд ви идете, шта ви тражите? — \r\n\r\nИ ми идемо, мому тражимо. —  \r\n\r\nУ нас је мома још непрошена. — \r\n\r\nМи ћемо доћи, да је просимо. — \r\n5\r\n \r\n\r\nВи ћете доћи, ми је не дамо. — \r\n\r\nБогме ћеш дати, и наша бити. —  \r\n\r\nДок свекар дође, сукњу донесе. —  \r\n\r\nСвекар ће доћи, сукњу донети. — \r\n\r\nДок рабар дође. прстен донесе. — \r\n10\r\n\r\nРабар ће доћи, прстен донети. — \r\n\r\nДок девер дође, венац донесе. — \r\n\r\nДевер ће доћи, венац донети. \r\n\r\n\r\n\r\n\r\nI\r\nб\r\n Без белешке одакле је.",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -3844,7 +3897,7 @@
     "catalogId": "sr_vuk2_000_",
     "title": "Просцима",
     "subtitle": "",
-    "lyrics": "Просцима\r\n\r\n\r\n(из Сријема).\r\n \r\n\r\n\r\nОј! и два свата, два упросника! ле, леља ле! \r\n[\r\n1\r\n]\r\n \r\n\r\nКуд ви идете, шта ви тражите? — \r\n\r\nИ ми идемо, мому тражимо. —  \r\n\r\nУ нас је мома још непрошена. — \r\n\r\nМи ћемо доћи, да је просимо. — \r\n5\r\n \r\n\r\nВи ћете доћи, ми је не дамо. — \r\n\r\nБогме ћеш дати, и наша бити. —  \r\n\r\nДок свекар дође, сукњу донесе. —  \r\n\r\nСвекар ће доћи, сукњу донети. — \r\n\r\nДок рабар дође. прстен донесе. — \r\n10\r\n\r\nРабар ће доћи, прстен донети. — \r\n\r\nДок девер дође, венац донесе. — \r\n\r\nДевер ће доћи, венац донети. \r\n\r\n\r\n\r\n\r\nI\r\nб\r\n Без белешке одакле је.\r\n \r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Просцима\r\n\r\n\r\n(из Сријема).\r\n \r\n\r\n\r\nОј! и два свата, два упросника! ле, леља ле! \r\n[\r\n1\r\n]\r\n \r\n\r\nКуд ви идете, шта ви тражите? — \r\n\r\nИ ми идемо, мому тражимо. —  \r\n\r\nУ нас је мома још непрошена. — \r\n\r\nМи ћемо доћи, да је просимо. — \r\n5\r\n \r\n\r\nВи ћете доћи, ми је не дамо. — \r\n\r\nБогме ћеш дати, и наша бити. —  \r\n\r\nДок свекар дође, сукњу донесе. —  \r\n\r\nСвекар ће доћи, сукњу донети. — \r\n\r\nДок рабар дође. прстен донесе. — \r\n10\r\n\r\nРабар ће доћи, прстен донети. — \r\n\r\nДок девер дође, венац донесе. — \r\n\r\nДевер ће доћи, венац донети. \r\n\r\n\r\n\r\n\r\nI\r\nб\r\n Без белешке одакле је.",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -3853,7 +3906,8 @@
     "theme": "",
     "year": 1841,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4606",
@@ -4301,7 +4355,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4612",
@@ -4333,7 +4388,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4617",
@@ -4653,7 +4709,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4594__public_2",
@@ -4669,7 +4726,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4582__public_2",
@@ -4685,14 +4743,15 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "sr_vuk2_1936_",
     "catalogId": "sr_vuk2_1936_",
     "title": "Цура и браца",
     "subtitle": "",
-    "lyrics": "Цура и браца\r\n\r\n\r\nСвечера је месечина, а ујутру тама,\r\n\r\nНе сме цура, лане моје, ићи кући сама.\r\n\r\nПратио је, лане моје, браца до бунара,\r\n\r\nОд бунара, лане моје, оде кући сама.\r\n\r\nОде браца, лане моје, кући певајући; \r\n5\r\n\r\nОде цура, лане моје, кући плакајући.\r\n\r\n\r\n\r\n\r\n(АСАНУ, бр. 4277 — уз писмо Јустииа Михаиловића\r\n \r\n\r\n\r\nод 12/24. VII 1840; Вукова преписка, VI, 311).\r\n\r\n\r\n\r\n\r\nДатотека:Murat Sipan vinjeta.jpg",
+    "lyrics": "Цура и браца\r\n\r\n\r\nСвечера је месечина, а ујутру тама,\r\n\r\nНе сме цура, лане моје, ићи кући сама.\r\n\r\nПратио је, лане моје, браца до бунара,\r\n\r\nОд бунара, лане моје, оде кући сама.\r\n\r\nОде браца, лане моје, кући певајући; \r\n5\r\n\r\nОде цура, лане моје, кући плакајући.\r\n\r\n\r\n\r\n\r\n(АСАНУ, бр. 4277 — уз писмо Јустииа Михаиловића\r\n \r\n\r\n\r\nод 12/24. VII 1840; Вукова преписка, VI, 311).",
     "language": "sr",
     "country": "principality_of_serbia_1815_1882",
     "period": "",
@@ -4717,7 +4776,8 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   },
   {
     "id": "liternet_bg_4589",
@@ -4797,6 +4857,7 @@
     "theme": "",
     "year": 1861,
     "verified": false,
-    "source": "public-catalog"
+    "source": "public-catalog",
+    "hidden": true
   }
 ]

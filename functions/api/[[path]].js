@@ -42,7 +42,7 @@ async function loadCatalog(context) {
         if (!response.ok) throw new Error(`Catalog asset returned ${response.status}`)
         return response.json()
       })
-      .then((rows) => [...rows, ...DEMO_FIXTURES].map(normalizeSong))
+      .then((rows) => [...rows, ...DEMO_FIXTURES].map(normalizeSong).filter((song) => !song.hidden && song.status !== 'hidden'))
       .catch((error) => {
         catalogPromise = null
         throw error
@@ -100,7 +100,7 @@ export async function onRequest(context) {
     const publicSongMatch = path.match(/^songs\/([^/]+)$/)
     if (publicSongMatch && method === 'GET') {
       const song = catalog.find((item) => item.id === publicSongMatch[1])
-      return song
+      return song && !song.hidden && song.status !== 'hidden'
         ? json({ ...completeSong(song), is_favorite: favoriteIds.has(song.id) })
         : json({ error: 'Song not found' }, 404)
     }
@@ -128,14 +128,14 @@ export async function onRequest(context) {
     if (path === 'favorites' && method === 'GET') {
       const items = session.favorites
         .map((id) => catalog.find((song) => song.id === id))
-        .filter(Boolean)
+        .filter((song) => Boolean(song && !song.hidden && song.status !== 'hidden'))
         .map((song) => songListItem({ ...song, is_favorite: true }))
       return json({ items, total: items.length })
     }
     const favoriteMatch = path.match(/^favorites\/([^/]+)$/)
     if (favoriteMatch && (method === 'POST' || method === 'DELETE')) {
       const songId = favoriteMatch[1]
-      if (!catalog.some((song) => song.id === songId)) return json({ error: 'Song not found' }, 404)
+      if (!catalog.some((song) => song.id === songId && !song.hidden && song.status !== 'hidden')) return json({ error: 'Song not found' }, 404)
       const nextFavorites = new Set(session.favorites)
       if (method === 'POST') nextFavorites.add(songId)
       else nextFavorites.delete(songId)
