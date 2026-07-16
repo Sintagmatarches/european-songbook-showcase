@@ -51,7 +51,7 @@
 }());
 
 (function applyClientCacheBust() {
-  var cacheBustVersion = "20260716-original-ui-v14";
+  var cacheBustVersion = "20260716-readme-v1";
   var markerKey = "songbook_client_cache_bust_version";
   var localKeys = [
     "songbook_api_get_cache_v2",

@@ -96,7 +96,7 @@ test('favorites bypass stale GET data and invalidate cached song state after mut
 })
 
 test('all entry assets use the explicit portfolio cache version', () => {
-  const references = index.match(/20260716-original-ui-v14/g) || []
+  const references = index.match(/20260716-readme-v1/g) || []
   assert.equal(references.length, 7)
   assert.doesNotMatch(index, /20260715-lyrics-spacing-v98|20260715-original-ui-v[2-9]\b/)
 })

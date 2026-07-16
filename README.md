@@ -1,51 +1,39 @@
-# European Songbook — Portfolio Edition
+# European Songbook Demo
 
-Safe portfolio deployment of the European Songbook using the **original production design**: the same shell, catalog cards, navigation rail, mobile navigation, map, logo, responsive behavior and administration interface.
+Public, non-production demo of a web application for browsing a multilingual catalog of European historical songs.
 
 ## Live demo
 
-[Open the portfolio site](https://european-songbook-portfolio.pages.dev/)
+[Open the demo](https://european-songbook-portfolio.pages.dev/)
 
-## What the demo contains
+## Included
 
-- the original compiled frontend design, copied without visual redesign;
-- 300 sanitized rows from the anonymous public catalog;
-- 5 clearly labeled Indonesia workflow fixtures, for exactly 305 demo entries;
-- the original song catalog, search, song pages and administration navigation;
-- a simulated Super Admin session with no real identity data;
-- a Cloudflare Pages demo API that validates interface actions but never writes to production.
+- 305 sanitized demo records;
+- catalog search and metadata filters;
+- song pages and map navigation;
+- simulated administration workflows;
+- an isolated Cloudflare Pages API with no production write access.
 
-## Safety boundary
+## Data and access
 
-The repository contains no production database binding, session secret, invitation flow, user list or production write endpoint. `/api/*` is implemented by a small isolated demo function. Catalog and administration mutations are simulations and are never persisted. Favorites and the last five searches live only in an isolated, expiring browser cookie for two hours.
+This repository does not contain the production database, credentials, user records, invitation flow, or production write endpoints. Administration actions are simulations and are not persisted. Favorites and recent searches are stored only in a temporary demo session.
 
-The original backend remains private and is not called by this deployment.
+The production backend and the private application source are not included and are not called by this deployment.
 
-## Technical scope
+## Repository structure
 
-- original Vue interface, published here as a reviewed production build;
-- Cloudflare Pages Functions for the isolated demo API;
-- sanitized JSON catalog with deterministic workflow fixtures;
-- Node.js tests for API behavior, bundle integrity, credentials and public-data boundaries.
+- `public-site/` — compiled frontend and static assets;
+- `functions/` — isolated demo API;
+- `data/` — sanitized catalog snapshot;
+- `tests/` — API, data-boundary, and bundle-integrity checks;
+- `docs/` — architecture and security notes.
 
-The private Vue source tree and production backend are intentionally outside this public repository. This edition is a safe, runnable product demonstration rather than a source mirror of the live service.
+## Local development
 
-## Structure
-
-- `public-site/` — original production UI build and its existing assets;
-- `functions/` — isolated no-database API contract for the portfolio;
-- `data/` — sanitized anonymous catalog snapshot;
-- `tests/` — data, API-policy and original-design integrity checks;
-- `docs/` — architecture and security decisions.
-
-The compiled flag catalog is reduced to the historical affiliations represented by the 305 demo entries. Zero-song countries and their embedded flag references are not shipped.
-
-## Development
+Requires Node.js 22 or later.
 
 ```bash
 npm install
 npm run check
 npx wrangler pages dev dist
 ```
-
-The build copies the selected original UI into `dist/`. Portfolio country selectors expose only represented catalog entries, the home page suppresses confirmed false historical duplicates, and favorites/search history use an isolated two-hour demo session cookie. `npm run check` also enforces the sanitized flag allowlist and bundle integrity. Cache version: `20260716-original-ui-v14`.
