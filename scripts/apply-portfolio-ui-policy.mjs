@@ -5,8 +5,8 @@ const root = resolve(import.meta.dirname, '..')
 const appPath = resolve(root, 'public-site/ui/dist/app.js')
 const apiPath = resolve(root, 'public-site/ui/dist/chunks/chunk-HKLUWN3C.js')
 const renderPath = resolve(root, 'public-site/ui/dist/chunks/render-FPKSMUU5.js')
-const chunkVersion = '20260716-portfolio-policy-v6'
-const previousChunkVersion = '20260716-portfolio-policy-v5'
+const chunkVersion = '20260716-portfolio-policy-v7'
+const previousChunkVersion = '20260716-portfolio-policy-v6'
 const apiChunkVersion = '20260715-portfolio-api-v1'
 
 function replaceExactlyOnce(source, original, replacement, label) {
@@ -75,7 +75,7 @@ api = replaceExactlyOnce(
 )
 
 let render = await readFile(renderPath, 'utf8')
-const portfolioFlagCatalog = 'var lf=Object.freeze({serbia_2006:"rs",turkey_1923:"tr",bulgaria_1990:"bg",germany_1990:"de",france_fifth_republic_1958:"fr",austria_1945:"at",hungary_1989:"hu",switzerland_1900:"ch",indonesia_1945:"id",netherlands_1900:"nl",ukraine_1991:"ua",ukraine_before_1917:"ua",russian_federation_1991:"ru",uk_gb_ni_1922:"gb",uk_gb_ireland_1900_1922:"gb",ireland_1937_1949:"ie",denmark_1900:"dk",iceland_1944:"is",norway_1905:"no"}),df=Object.freeze({}),Gc=Object.freeze({austro_hungary_1900_1918:Me("Flag of Austria-Hungary 1869-1918.svg"),german_empire_1900_1918:Me("Flag of the German Empire.svg"),russian_empire_1900_1917:Me("Flag of Russia (1858\\u20131896).svg"),ottoman_rule_in_bulgaria_1396_1878:Me("Flag of the Ottoman Empire (1844\\u20131922).svg"),ottoman_rule_in_serbia_1459_1804:Me("Flag of the Ottoman Empire (1844\\u20131922).svg"),principality_of_serbia_1815_1882:Me("Civil flag of Serbia.svg"),kingdom_of_serbia_1882_1918:Me("Civil flag of Serbia.svg")}),ff=Object.freeze({}),mf=Object.freeze([]),portfolioFlagCountries=Object.freeze(new Set(["serbia_2006","turkey_1923","bulgaria_1990","germany_1990","france_fifth_republic_1958","austro_hungary_1900_1918","austria_1945","hungary_1989","switzerland_1900","netherlands_1900","ukraine_1991","russian_federation_1991","russian_empire_1900_1917","uk_gb_ni_1922","ireland_1937_1949","denmark_1900","iceland_1944","norway_1905","principality_of_serbia_1815_1882","ottoman_rule_in_bulgaria_1396_1878","german_empire_1900_1918","indonesia_1945","ukraine_before_1917","uk_gb_ireland_1900_1922","ottoman_rule_in_serbia_1459_1804","kingdom_of_serbia_1882_1918"]))'
+const portfolioFlagCatalog = 'var lf=Object.freeze({serbia_2006:"rs",turkey_1923:"tr",bulgaria_1990:"bg",germany_1990:"de",austria_1945:"at",hungary_1989:"hu",switzerland_1900:"ch",indonesia_1945:"id",netherlands_1900:"nl",ukraine_1991:"ua",ukraine_before_1917:"ua",uk_gb_ni_1922:"gb",uk_gb_ireland_1900_1922:"gb",ireland_1937_1949:"ie",denmark_1900:"dk",iceland_1944:"is",norway_1905:"no"}),df=Object.freeze({}),Gc=Object.freeze({austro_hungary_1900_1918:Me("Flag of Austria-Hungary 1869-1918.svg"),german_empire_1900_1918:Me("Flag of the German Empire.svg"),ottoman_rule_in_bulgaria_1396_1878:Me("Flag of the Ottoman Empire (1844\\u20131922).svg"),ottoman_rule_in_serbia_1459_1804:Me("Flag of the Ottoman Empire (1844\\u20131922).svg"),principality_of_serbia_1815_1882:Me("Civil flag of Serbia.svg"),kingdom_of_serbia_1882_1918:Me("Civil flag of Serbia.svg")}),ff=Object.freeze({}),mf=Object.freeze([]),portfolioHomeSectionCountries=Object.freeze(new Set(["serbia_2006","turkey_1923","bulgaria_1990","germany_1990","austro_hungary_1900_1918","austria_1945","hungary_1989","switzerland_1900","netherlands_1900","ukraine_1991","uk_gb_ni_1922","ireland_1937_1949","denmark_1900","iceland_1944","norway_1905"])),portfolioFlagCountries=Object.freeze(new Set(["serbia_2006","turkey_1923","bulgaria_1990","germany_1990","austro_hungary_1900_1918","austria_1945","hungary_1989","switzerland_1900","netherlands_1900","ukraine_1991","uk_gb_ni_1922","ireland_1937_1949","denmark_1900","iceland_1944","norway_1905","principality_of_serbia_1815_1882","ottoman_rule_in_bulgaria_1396_1878","german_empire_1900_1918","indonesia_1945","ukraine_before_1917","uk_gb_ireland_1900_1922","ottoman_rule_in_serbia_1459_1804","kingdom_of_serbia_1882_1918"]))'
 render = replaceDelimitedOnce(
   render,
   'var lf=Object.freeze(',
@@ -100,6 +100,12 @@ render = replaceExactlyOnce(
   'function ns(){return ce.user?0:1}',
   'function ns(){return 0}',
   'thematic count threshold',
+)
+render = replaceExactlyOnce(
+  render,
+  'filter(i=>i.count>n).sort((i,a)=>x0(i,a,r))',
+  'filter(i=>i.count>n&&portfolioHomeSectionCountries.has(w0(i.key))).sort((i,a)=>x0(i,a,r))',
+  'portfolio home section ownership policy',
 )
 render = replaceExactlyOnce(
   render,
