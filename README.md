@@ -48,4 +48,4 @@ npm run check
 npx wrangler pages dev dist
 ```
 
-The build copies the selected original UI into `dist/`. Portfolio country selectors expose only represented catalog entries, thematic entity labels follow the selected locale, and favorites/search history use an isolated two-hour demo session cookie. `npm run check` also enforces the sanitized flag allowlist and bundle integrity. Cache version: `20260716-original-ui-v12`.
+The build copies the selected original UI into `dist/`. Portfolio country selectors expose only represented catalog entries, thematic entity labels follow the selected locale, and favorites/search history use an isolated two-hour demo session cookie. `npm run check` also enforces the sanitized flag allowlist and bundle integrity. Cache version: `20260716-original-ui-v13`.

@@ -20,13 +20,13 @@ test('portfolio uses the original production UI shell', () => {
 
 test('original design CSS and portfolio-adapted application bundles are pinned', () => {
   assert.equal(digest(css), 'a365874bc3fec40c07897c28bb6dfffeda2d2db4d71f313f57cbe16eb9aa6c36')
-  assert.equal(digest(app), '479f8eab8e7f21272f408ce48015a90545c6859a2efdc471359793fbe0e7b474')
+  assert.equal(digest(app), '2738dd4781e39c485f9aa557bdbbb91ca231779a88de8a4a240f8e55b127b642')
   assert.equal(digest(api), '4e77dddf5e060b76bfa9583df523feb218cf507af093465b68240ea160393c3d')
-  assert.equal(digest(render), 'b1190ae3ccc20d78a568a0c96ed52ad80ac0d72875f2a15c9469993603bcb149')
+  assert.equal(digest(render), '0305c26f660282739e3f303af0cabd01fbaf0663132cb133efa1668d9edb602e')
 })
 
 test('all portfolio thematic navigation hides zero-count structural entries', () => {
-  assert.match(app.toString('utf8'), /render-FPKSMUU5\.js\?v=20260716-portfolio-policy-v5/)
+  assert.match(app.toString('utf8'), /render-FPKSMUU5\.js\?v=20260716-portfolio-policy-v6/)
   assert.match(render.toString('utf8'), /includeZeroCountStructural:!1,minCount:0/)
   assert.doesNotMatch(render.toString('utf8'), /includeZeroCountStructural:!![^,]+\.user/)
 })
@@ -53,8 +53,22 @@ test('bundled flag catalog contains only affiliations represented by demo songs'
     'Flag of the German Empire.svg',
     'Flag of the Ottoman Empire (1844\\u20131922).svg',
     'Flag of the Ottoman Empire (1844\\u20131922).svg',
+    'Flag of Russia (1858\\u20131896).svg',
   ].sort())
   assert.match(source, /portfolioFlagCountries\.has\(/)
+  for (const country of ['serbia_2006', 'turkey_1923', 'bulgaria_1990', 'germany_1990', 'france_fifth_republic_1958', 'austria_1945', 'hungary_1989', 'ukraine_1991', 'russian_federation_1991', 'russian_empire_1900_1917', 'uk_gb_ni_1922', 'ireland_1937_1949', 'iceland_1944', 'norway_1905']) {
+    assert.match(source, new RegExp(`portfolioFlagCountries[^;]+"${country}"`))
+  }
+  const flagCatalog = source.slice(source.indexOf('var lf=Object.freeze('), source.indexOf(';function Xc'))
+  assert.doesNotMatch(flagCatalog, /third_reich|nazi_germany/i)
+})
+
+test('home catalog is labelled as thematic sections in every interface language', () => {
+  const source = render.toString('utf8')
+  assert.match(source, /Thematic sections/)
+  assert.match(source, /Temaatilised jaotised/)
+  assert.match(source, /\\u0422\\u0435\\u043C\\u0430\\u0442\\u0438\\u0447\\u0435\\u0441\\u043A\\u0438\\u0435 \\u0440\\u0430\\u0437\\u0434\\u0435\\u043B\\u044B/)
+  assert.match(source, /\\u0422\\u0435\\u043C\\u0430\\u0442\\u0438\\u0447\\u043D\\u0456 \\u0440\\u043E\\u0437\\u0434\\u0456\\u043B\\u0438/)
 })
 
 test('favorites bypass stale GET data and invalidate cached song state after mutations', () => {
@@ -71,7 +85,7 @@ test('favorites bypass stale GET data and invalidate cached song state after mut
 })
 
 test('all entry assets use the explicit portfolio cache version', () => {
-  const references = index.match(/20260716-original-ui-v12/g) || []
+  const references = index.match(/20260716-original-ui-v13/g) || []
   assert.equal(references.length, 7)
   assert.doesNotMatch(index, /20260715-lyrics-spacing-v98|20260715-original-ui-v[2-9]\b/)
 })
